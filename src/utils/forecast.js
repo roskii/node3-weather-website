@@ -20,7 +20,11 @@ const forecast = (latitude, longitude, callback) => {
 					body.current.temperature +
 					' degrees out. But it feels like ' +
 					body.current.feelslike +
-					' degrees out.'
+					' degrees out. There is a humidity level of ' +
+					body.current.humidity +
+					'forecasted. The UV index will be ' +
+					body.current.uv_index +
+					' today.'
 			);
 		}
 	});
