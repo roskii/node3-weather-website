@@ -22,7 +22,7 @@ const forecast = (latitude, longitude, callback) => {
 					body.current.feelslike +
 					' degrees out. There is a humidity level of ' +
 					body.current.humidity +
-					'forecasted. The UV index will be ' +
+					' forecasted. The UV index will be ' +
 					body.current.uv_index +
 					' today.'
 			);
